@@ -1,4 +1,4 @@
-### Assignment:
+### Campaign Donations Table
 
 A simple table using the `donations_over_5K.json`. The data contains all campaign donations over $5,000 filed with the Missouri Ethics Commission. 
 
