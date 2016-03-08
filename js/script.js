@@ -32,7 +32,7 @@ function writeTable(data) {
 				$("table.donations tbody").append(
 					"<tr>"+
 						"<td class='date'>"+data[i]["Contribution Date"]+"</td>"+
-		                "<td class='info'>"+data[i]["Contribution Information"]+"</td>"+
+		                "<td class='information'>"+data[i]["Contribution Information"]+"</td>"+
 		                "<td class='amount'>"+data[i]["Amount"]+"</td>"+
 	                "</tr>"
 				);
@@ -41,7 +41,6 @@ function writeTable(data) {
 		}
 
 
-		$("table.donations").dataTable();
 
 
 
